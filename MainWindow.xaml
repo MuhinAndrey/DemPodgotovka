@@ -1,0 +1,21 @@
+﻿<Window x:Class="DemSecond.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DemSecond"
+        mc:Ignorable="d"
+        Title="Регистрация" Height="450" Width="850" MinHeight="450" MinWidth="850">
+    <Grid Background="LightSeaGreen">
+
+        <TextBox x:Name="Login_Reg" Height="35" Margin="296,87,296,297" TextWrapping="Wrap" Width="200"/>
+        <PasswordBox x:Name="Password1_Reg" Height="35" Margin="296,150,296,234" Width="200"/>
+        <PasswordBox x:Name="Password2_Reg" Height="35" Margin="296,213,296,171" Width="200"/>
+        <Button x:Name="Reg_Button" Content="Регистрация" Height="35" Width="200" Margin="0,150,0,0" Click="Reg_Button_Click"/>
+        <Button x:Name="Auto_Button" Content="Есть аккаунт?" Height="35" Width="200" Margin="0,260,0,0" Click="Auto_Button_Click"/>
+        <Label Content="Логин" Margin="296,54,445,337" Height="28" Width="51"/>
+        <Label Content="Пароль" Margin="296,127,445,264" Height="28" Width="51"/>
+        <Label Content="Повторить пароль" Margin="296,185,346,206" Height="28" Width="150"/>
+
+    </Grid>
+</Window>
